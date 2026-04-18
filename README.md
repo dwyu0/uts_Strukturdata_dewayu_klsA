@@ -34,9 +34,9 @@ First In First Out (FIFO), yaitu data yang pertama masuk akan diproses lebih dah
 - Di dalam setiap layanan, antrian berjalan dengan prinsip FIFO (First In First Out), di mana nasabah yang pertama masuk akan dilayani lebih dahulu. Implementasi queue dilakukan menggunakan array pada JavaScript, dengan operasi push() untuk menambahkan elemen baru ke bagian belakang antrian (enqueue) dan shift() untuk menghapus elemen dari bagian depan antrian (dequeue).
 -
 ## Konsep FIFO 
--  
--
--
+- Dalam konteks pengelolaan ruangan, metode FIFO (First In First Out) digunakan untuk memastikan urutan pengajuan diproses dengan adil, sedangkan metode Time-Based Allocation memastikan ruangan dimanfaatkan sesuai durasi yang telah ditentukan. Kombinasi kedua metode ini memungkinkan pengelolaan ruangan menjadi lebih efisien dan terstruktur. Penerapan metode FIFO dan Time-Based Allocation telah meningkatkan efisiensi pengelolaan ruangan. Metode FIFO memastikan pemrosesan peminjaman dilakukan secara adil sesuai urutan, sementara Time-Based Allocation mengoptimalkan alokasi waktu untuk mencegah bentrokan jadwal.
+- Noptrina menerapkan algoritma FIFO (First In First Out) pada sistem penjadwalan praktikum. Hasilnya menunjukkan bahwa FIFO menjamin aspek keadilan antrian (fairness), namun memiliki kelemahan dalam mengakomodasi situasi mendesak (urgency). Priority Scheduling digunakan untuk menangani urgensi, dan FIFO digunakan untuk menjaga keadilan saat urgensi setara.
+- FCFS adalah kepanjangan dari First-Come, First-Served. Melayani permintaan yang saling bertentangan berdasarkan proses perilaku. Dimana orang-orang menunggu antrian mereka tiba. FCFS juga merupakan istilahuntuk sistem operasi FIFO dalam arti yang lebih luas memberikan setiap proses CPU waktu sesuai dengan urutan mereka datang.
 ## Implementasi menggunakan array atau linked list
 -
 -
