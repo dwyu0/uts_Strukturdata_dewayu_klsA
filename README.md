@@ -6,9 +6,13 @@
 | Ni Made Era Purnama Dewi  | 2501010007    | A       |
 
 # 📌 Rumusan Masalah
-1. Bagaimana queue dapat digunakan untuk mengelola peminjaman ruangan?
-2. Bagaimana linked list dapat meningkatkan fleksibilitas implementasi?
-3. Bagaimana sistem yang dibuat mampu menyelesaikan masalah nyata?
+1. Bagaimana penerapan struktur data queue dalam mengelola sistem peminjaman ruangan secara teratur?
+2. Bagaimana implementasi queue menggunakan array dalam mengatur antrian peminjaman ruangan?
+3. Bagaimana sistem antrian yang dibuat dapat meningkatkan efisiensi dan keadilan dalam proses peminjaman ruangan?
+
+# 📌 Solusi
+-Untuk menjawab permasalahan tersebut, dirancang sebuah sistem peminjaman ruangan menggunakan struktur data queue dengan prinsip FIFO (First In First Out). Sistem ini memastikan bahwa setiap permintaan peminjaman diproses berdasarkan urutan waktu pengajuan.
+-Implementasi dilakukan menggunakan array dengan operasi utama enqueue, dequeue, peek, dan display. Dengan sistem ini, proses peminjaman menjadi lebih terstruktur, efisien, dan adil.
 
 # 📌 Landasan Teori
 ## Pengertian struktur data
@@ -44,11 +48,11 @@ First In First Out (FIFO), yaitu data yang pertama masuk akan diproses lebih dah
 # 📌 Desain Sistem dan Implementasi
 Jelaskan desain sistem menggunakan salah satu berikut:
 - Flowchart
-- Diagram proses
-- Pseudocode
+<img width="276" height="382" alt="WhatsApp Image 2026-04-22 at 01 42 30" src="https://github.com/user-attachments/assets/f090adac-cd0a-4d90-8132-41c8db151a10" />
+
 
 # 📌 Kesimpulan
-- apakah rumusan masalah telah terselesaikan
-- apakah sistem berjalan sesuai teori
-- bagaimana manfaat queue / stack pada kasus tersebut
+-Berdasarkan hasil implementasi, struktur data queue berhasil diterapkan dalam sistem peminjaman ruangan. Rumusan masalah yang diajukan telah terjawab melalui sistem yang dibuat.
+-Sistem berjalan sesuai dengan konsep FIFO, di mana data yang pertama masuk akan diproses terlebih dahulu. Hal ini membuktikan bahwa queue sangat efektif dalam mengelola antrian.
+-Penggunaan queue memberikan manfaat berupa keteraturan, keadilan, dan efisiensi dalam proses peminjaman ruangan.
 # Daftar Pustaka
