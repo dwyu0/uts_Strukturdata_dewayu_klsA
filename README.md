@@ -50,5 +50,5 @@ Jelaskan desain sistem menggunakan salah satu berikut:
 # 📌 Kesimpulan
 - apakah rumusan masalah telah terselesaikan
 - apakah sistem berjalan sesuai teori
-- bagaimana manfaat queue / stack pada kasus tersebu
+- bagaimana manfaat queue / stack pada kasus tersebut
 # Daftar Pustaka
