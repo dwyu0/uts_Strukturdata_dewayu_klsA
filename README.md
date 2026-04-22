@@ -11,8 +11,8 @@
 3. Bagaimana sistem antrian yang dibuat dapat meningkatkan efisiensi dan keadilan dalam proses peminjaman ruangan?
 
 # 📌 Solusi
--Untuk menjawab permasalahan tersebut, dirancang sebuah sistem peminjaman ruangan menggunakan struktur data queue dengan prinsip FIFO (First In First Out). Sistem ini memastikan bahwa setiap permintaan peminjaman diproses berdasarkan urutan waktu pengajuan.
--Implementasi dilakukan menggunakan array dengan operasi utama enqueue, dequeue, peek, dan display. Dengan sistem ini, proses peminjaman menjadi lebih terstruktur, efisien, dan adil.
+- Untuk menjawab permasalahan tersebut, dirancang sebuah sistem peminjaman ruangan menggunakan struktur data queue dengan prinsip FIFO (First In First Out). Sistem ini memastikan bahwa setiap permintaan peminjaman diproses berdasarkan urutan waktu pengajuan.
+- Implementasi dilakukan menggunakan array dengan operasi utama enqueue, dequeue, peek, dan display. Dengan sistem ini, proses peminjaman menjadi lebih terstruktur, efisien, dan adil.
 
 # 📌 Landasan Teori
 ## Pengertian struktur data
