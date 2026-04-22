@@ -96,18 +96,15 @@ display()
 # 📌 Desain Sistem dan Implementasi
 Jelaskan desain sistem menggunakan salah satu berikut:
 - Flowchart
-adalah diagram yang digunakan untuk menggambarkan alur atau langkah-langkah suatu proses secara sistematis menggunakan simbol-simbol tertentu. Flowchart membantu dalam memvisualisasikan logika program sehingga lebih mudah dipahami sebelum diimplementasikan ke dalam kode. Dalam perancangan sistem, flowchart berfungsi untuk menunjukkan urutan proses dari awal hingga akhir, termasuk input, proses, dan output.
+adalah diagram yang digunakan untuk menggambarkan alur proses dalam suatu sistem secara sistematis menggunakan simbol tertentu. Selain itu flowchart juga membantu dalam memahami logika program sebelum diimplementasikan ke dalam kode. Dalam sistem peminjaman ruangan berbasis queue ini, flowchart digunakan untuk menggambarkan alur mulai dari input data peminjam, proses penambahan antrian (enqueue), pemrosesan antrian (dequeue), hingga menampilkan data (display) dan melihat antrian terdepan (peek).
 
-Dengan adanya flowchart, pengembang dapat mengidentifikasi alur kerja sistem secara jelas serta meminimalkan kesalahan dalam pembuatan program.
-Beberapa simbol yang umum digunakan dalam flowchart antara lain:
+Adapun simbol-simbol yang digunakan dalam flowchart, yaitu:
 
 - Terminator (oval) → menunjukkan awal dan akhir proses
-- Proses (persegi panjang) → menunjukkan langkah atau aktivitas
-- Input/Output (jajar genjang) → menunjukkan data masuk atau keluar
-- Decision (belah ketupat) → menunjukkan percabangan kondisi
-- Flowline (panah) → menunjukkan arah alur proses
-
-Dalam penelitian ini, flowchart digunakan untuk menggambarkan alur sistem peminjaman ruangan berbasis queue, mulai dari proses input data, penambahan antrian (enqueue), pemrosesan antrian (dequeue), hingga menampilkan hasil (display dan peek)
+- Input/Output (jajar genjang) → untuk memasukkan data peminjam
+- Process (persegi panjang) → untuk proses enqueue, dequeue, display, dan peek
+- Flowline (panah) → menunjukkan alur proses
+  
 <img width="276" height="382" alt="WhatsApp Image 2026-04-22 at 01 42 30" src="https://github.com/user-attachments/assets/f090adac-cd0a-4d90-8132-41c8db151a10" />
 
 
