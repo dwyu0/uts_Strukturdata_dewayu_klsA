@@ -52,7 +52,7 @@ Jelaskan desain sistem menggunakan salah satu berikut:
 
 
 # 📌 Kesimpulan
--Berdasarkan hasil implementasi, struktur data queue berhasil diterapkan dalam sistem peminjaman ruangan. Rumusan masalah yang diajukan telah terjawab melalui sistem yang dibuat.
--Sistem berjalan sesuai dengan konsep FIFO, di mana data yang pertama masuk akan diproses terlebih dahulu. Hal ini membuktikan bahwa queue sangat efektif dalam mengelola antrian.
--Penggunaan queue memberikan manfaat berupa keteraturan, keadilan, dan efisiensi dalam proses peminjaman ruangan.
+- Berdasarkan hasil implementasi, struktur data queue berhasil diterapkan dalam sistem peminjaman ruangan. Rumusan masalah yang diajukan telah terjawab melalui sistem yang dibuat.
+- Sistem berjalan sesuai dengan konsep FIFO, di mana data yang pertama masuk akan diproses terlebih dahulu. Hal ini membuktikan bahwa queue sangat efektif dalam mengelola antrian.
+- Penggunaan queue memberikan manfaat berupa keteraturan, keadilan, dan efisiensi dalam proses peminjaman ruangan.
 # Daftar Pustaka
