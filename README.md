@@ -1,9 +1,9 @@
 # Sistem Peminjaman Ruangan
 # Kelompok
-| Nama                      | NIM           | Kelas   |
+| Nama                      | NIM           | Akun Github   |
 | ------------              | --------------| --------|
-| Dewa Ayu Sarika Citra     | 2501010134    | A       |
-| Ni Made Era Purnama Dewi  | 2501010007    | A       |
+| Dewa Ayu Sarika Citra     | 2501010134    | nimadeerap-ui       |
+| Ni Made Era Purnama Dewi  | 2501010007    | dwyu0-ui       |
 
 # 📌 Rumusan Masalah
 1. Bagaimana penerapan struktur data queue dalam mengelola sistem peminjaman ruangan secara teratur?
