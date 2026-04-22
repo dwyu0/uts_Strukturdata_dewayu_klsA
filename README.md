@@ -48,14 +48,6 @@ First In First Out (FIFO), yaitu data yang pertama masuk akan diproses lebih dah
 # 📌 Desain Sistem dan Implementasi
 Jelaskan desain sistem menggunakan salah satu berikut:
 - Flowchart
-```mermaid
-flowchart TD
-  A([Mulai]) --> B[/Input data peminjam/]
-  B --> C[Enqueue<br/>(Tambahkan ke antrian)]
-  C --> D[Dequeue<br/>(Proses antrian terdepan)]
-  D --> E[Display<br/>(Tampilkan semua antrian)]
-  E --> F[Peek<br/>(Lihat antrian terdepan)]
-  F --> G([Selesai])
 <img width="276" height="382" alt="WhatsApp Image 2026-04-22 at 01 42 30" src="https://github.com/user-attachments/assets/f090adac-cd0a-4d90-8132-41c8db151a10" />
 
 
