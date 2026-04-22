@@ -1,9 +1,9 @@
 # Sistem Peminjaman Ruangan
 # Kelompok
 | Nama                      | NIM           | Akun Github   |
-| ------------              | --------------| --------|
-| Dewa Ayu Sarika Citra     | 2501010134    | nimadeerap-ui       |
-| Ni Made Era Purnama Dewi  | 2501010007    | dwyu0-ui       |
+| ------------              | --------------| --------------|
+| Dewa Ayu Sarika Citra     | 2501010134    | nimadeerap-ui |
+| Ni Made Era Purnama Dewi  | 2501010007    | dwyu0-ui      |
 
 # 📌 Rumusan Masalah
 1. Bagaimana penerapan struktur data queue dalam mengelola sistem peminjaman ruangan secara teratur?
@@ -42,9 +42,57 @@ First In First Out (FIFO), yaitu data yang pertama masuk akan diproses lebih dah
 - Noptrina menerapkan algoritma FIFO (First In First Out) pada sistem penjadwalan praktikum. Hasilnya menunjukkan bahwa FIFO menjamin aspek keadilan antrian (fairness), namun memiliki kelemahan dalam mengakomodasi situasi mendesak (urgency). Priority Scheduling digunakan untuk menangani urgensi, dan FIFO digunakan untuk menjaga keadilan saat urgensi setara.
 - FCFS adalah kepanjangan dari First-Come, First-Served. Melayani permintaan yang saling bertentangan berdasarkan proses perilaku. Dimana orang-orang menunggu antrian mereka tiba. FCFS juga merupakan istilahuntuk sistem operasi FIFO dalam arti yang lebih luas memberikan setiap proses CPU waktu sesuai dengan urutan mereka datang.
 ## Implementasi menggunakan array atau linked list
--
--
--
+## 1️⃣ Inisialisasi
+```python
+queue = []
+max_size = 5
+```
+## 2️⃣ ENQUEUE (MENAMBAHKAN ANTRIAN)
+```python
+def enqueue(data):
+  if len(queue)>=max_size:
+    print("ANTRIAN PENUH!")
+  else:
+    queue.append(data)
+    print("Ditambahkan keantrian:",data)
+```
+## 3️⃣ DEQUEUE (PROSES ANTRIAN)
+```python
+def dequeue():
+  if not queue:
+    print("Antrian kosong")
+  else:
+    print("Sudah di proses:",queue.pop(0))
+```
+## 4️⃣ DISPLAY (MENAMPILKAN SEMUA DATA)
+```python
+def display():
+  if not queue:
+    print("Antrian kosong")
+  else:
+    print("\n Daftar antrian peminjaman:")
+    for i, data in enumerate(queue):
+      print(i+1,".",data)
+```
+## 5️⃣ PEEK (MELIHAT ANTRIAN TERDEPAN)
+```python
+def peek():
+  if queue:
+    print("Antrian terdepan:",queue[0])
+  else:
+    print("Antrian kosong")
+```
+## 6️⃣PENGAPLIKASIAN
+```python
+enqueue ("Era minjem ruangan 515, jam 10.00-12.20 untuk rapat organisasi")
+enqueue ("Wilsa minjem ruangan 331, jam 07.30-10.00 untuk kelas pengganti")
+enqueue ("ceri minjem ruangan lab k, jam 10.00-12.20 untuk membuat web")
+
+display()
+peek()
+dequeue()
+display()
+```
 # 📌 Desain Sistem dan Implementasi
 Jelaskan desain sistem menggunakan salah satu berikut:
 - Flowchart
