@@ -96,14 +96,16 @@ Jelaskan desain sistem menggunakan salah satu berikut:
 - Flowchart
 adalah diagram yang digunakan untuk menggambarkan alur proses dalam suatu sistem secara sistematis menggunakan simbol tertentu. Selain itu flowchart juga membantu dalam memahami logika program sebelum diimplementasikan ke dalam kode. Dalam sistem peminjaman ruangan berbasis queue ini, flowchart digunakan untuk menggambarkan alur mulai dari input data peminjam, proses penambahan antrian (enqueue), pemrosesan antrian (dequeue), hingga menampilkan data (display) dan melihat antrian terdepan (peek).
 
-Adapun simbol-simbol yang digunakan dalam flowchart, yaitu:
+Adapun simbol-simbol yang digunakan dalam flowchart sistem peminjaman ruangan, yaitu:
 
-- Terminator (oval) → menunjukkan awal dan akhir proses
-- Input/Output (jajar genjang) → untuk memasukkan data peminjam
-- Process (persegi panjang) → untuk proses enqueue, dequeue, display, dan peek
-- Flowline (panah) → menunjukkan alur proses
+- Terminator (oval) → menunjukkan awal (Mulai) dan akhir (Selesai) proses
+- Process (persegi panjang) → digunakan untuk proses display, peek, dequeue, dan enqueue
+- Decision (belah ketupat) → digunakan untuk kondisi seperti apakah antrian kosong atau apakah antrian penuh
+- Input/Output (jajar genjang) → untuk menampilkan hasil seperti “Antrian kosong” atau daftar antrian
+- Flowline (panah) → menunjukkan arah alur proses
   
-<img width="276" height="382" alt="WhatsApp Image 2026-04-22 at 01 42 30" src="https://github.com/user-attachments/assets/f090adac-cd0a-4d90-8132-41c8db151a10" />
+<img width="276" height="382" alt="WhatsApp Image 2026-04-24 at 10 25 13" src="https://github.com/user-attachments/assets/c332d760-2e38-40b3-9948-e5f6de08e8e3" />
+
 
 
 # 📌 Kesimpulan
